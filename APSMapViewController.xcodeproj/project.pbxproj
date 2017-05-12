@@ -15,6 +15,8 @@
 		610D93C31EC63689004F305D /* APSMapViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D93C21EC63689004F305D /* APSMapViewControllerTests.swift */; };
 		610D93CF1EC637AC004F305D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610D93CE1EC637AC004F305D /* MapKit.framework */; };
 		610D93D11EC63966004F305D /* APSMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D93D01EC63966004F305D /* APSMapViewController.swift */; };
+		610D93D31EC64293004F305D /* APSLocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D93D21EC64293004F305D /* APSLocationAnnotation.swift */; };
+		610D93D51EC64A22004F305D /* APSLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D93D41EC64A22004F305D /* APSLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		610D93C41EC63689004F305D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		610D93CE1EC637AC004F305D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		610D93D01EC63966004F305D /* APSMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APSMapViewController.swift; sourceTree = "<group>"; };
+		610D93D21EC64293004F305D /* APSLocationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APSLocationAnnotation.swift; sourceTree = "<group>"; };
+		610D93D41EC64A22004F305D /* APSLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APSLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +93,9 @@
 				610D93B41EC63689004F305D /* Assets.xcassets */,
 				610D93B61EC63689004F305D /* LaunchScreen.storyboard */,
 				610D93B91EC63689004F305D /* Info.plist */,
+				610D93D41EC64A22004F305D /* APSLocation.swift */,
 				610D93D01EC63966004F305D /* APSMapViewController.swift */,
+				610D93D21EC64293004F305D /* APSLocationAnnotation.swift */,
 			);
 			path = APSMapViewController;
 			sourceTree = "<group>";
@@ -215,7 +221,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				610D93B01EC63689004F305D /* ViewController.swift in Sources */,
+				610D93D31EC64293004F305D /* APSLocationAnnotation.swift in Sources */,
 				610D93AE1EC63689004F305D /* AppDelegate.swift in Sources */,
+				610D93D51EC64A22004F305D /* APSLocation.swift in Sources */,
 				610D93D11EC63966004F305D /* APSMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

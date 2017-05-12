@@ -81,7 +81,7 @@
                                 </constraints>
                                 <state key="normal" title="Simulate"/>
                                 <connections>
-                                    <segue destination="wZ2-gV-dQ0" kind="show" id="lgZ-DD-pdA"/>
+                                    <segue destination="wZ2-gV-dQ0" kind="show" identifier="plotLocations" id="lgZ-DD-pdA"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+class APSLocation: NSObject {
+    
+    var title:String?
+    var locationName:String?
+    var latitude:Double
+    var longitude:Double
+    
+    init(title:String?, locationName:String?, latitude:Double, longitude:Double) {
+        self.title = title
+        self.locationName = locationName
+        self.latitude = latitude
+        self.longitude = longitude
+        
+        super.init()
+    }
+    
+}
